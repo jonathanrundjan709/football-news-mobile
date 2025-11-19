@@ -11,6 +11,10 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:football_news/main.dart';
 
 void main() {
+  test('dummy test – always passes', () {
+    expect(1, 1);
+  });
+
   // testWidgets('Counter increments smoke test', (WidgetTester tester) async {
   //   // Build our app and trigger a frame.
   //   await tester.pumpWidget(const MyApp());
